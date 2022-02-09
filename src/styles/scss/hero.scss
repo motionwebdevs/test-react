@@ -1,0 +1,46 @@
+#hero {
+  background: url("../../assets/img/bg.png") no-repeat center/cover;
+  min-height: 100vh;
+  padding-top: 250px;
+
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &__title {
+      font-size: 96px;
+      line-height: 133px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    &__subtitle {
+      font-family: "Poppins", sans-serif;
+      font-size: 22.1114px;
+      line-height: 160%;
+      /* or 35px */
+
+      text-align: center;
+
+      color: #FFFFFF;
+      margin-bottom: 30px;
+    }
+    &__btn {
+      font-family: "Poppins", sans-serif;
+
+      font-weight: 500;
+      font-size: 17.1978px;
+      line-height: 26px;
+      /* identical to box height */
+
+      text-align: center;
+      padding: 15px 25px;
+      /* white */
+
+      color: #FFFFFF;
+
+      background: #E1651F;
+      border-radius: 47.9081px;
+    }
+  }
+}

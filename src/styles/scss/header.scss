@@ -1,0 +1,29 @@
+#header {
+  position: absolute;
+  width: 100%;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__logo {
+      font-size: 36px;
+      line-height: 50px;
+      /* identical to box height */
+
+
+      color: #FFFFFF;
+    }
+
+    &__nav {
+      &--item {
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height */
+        font-family: 'Poppins', sans-serif;
+        margin: 0 15px;
+        color: #FFFFFF;
+      }
+    }
+  }
+}
